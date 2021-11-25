@@ -97,7 +97,7 @@ To complete the story, we now go back to the case where there are many gates in 
 We can absorb any gates applied before gate :math:`i` into the initial
 state: :math:`|\psi_{i-1}\rangle = U_{i-1}(\theta_{i-1}) \cdots U_{1}(\theta_{1})U_{0}(x)|0\rangle`.
 Similarly, any gates applied after gate :math:`i` are combined with the observable :math:`\hat{B}`:
-:math:`\hat{B}_{i+1} = U_{N}^\dagger(\theta_{N}) \cdots U_{i+1}^\dagger(\theta_{i+1}) \hat{B} U_{i+1}(\theta_{i+1}) \cdots U_{N}(\theta_{N})`.
+:math:`\hat{B}_{i+1} = U_{i+1}^\dagger(\theta_{i+1}) \cdots U_{N}^\dagger(\theta_{N}) \hat{B} U_{N}(\theta_{N}) \cdots U_{i+1}(\theta_{i+1})`.
 
 With this simplification, the quantum circuit function becomes
 
