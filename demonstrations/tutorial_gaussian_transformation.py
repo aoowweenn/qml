@@ -130,7 +130,7 @@ print(cost(init_params))
 #     corresponds to a critical point with zero gradient.
 #
 # Now, let's use the :class:`~.pennylane.GradientDescentOptimizer`, and update the circuit
-# parameters over 100 optimization steps.
+# parameters over 20 optimization steps.
 
 # initialise the optimizer
 opt = qml.GradientDescentOptimizer(stepsize=0.1)
